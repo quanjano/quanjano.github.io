@@ -1,0 +1,190 @@
+/* Basic reset to remove default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  margin-top: 5px;
+  margin-left: 5px;
+  background: #ddd;
+  margin-bottom: 1rem;
+}
+
+
+/* Container class for padding and centering content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, .9); /* Adds a white background with some transparency to make the text readable */
+  position: relative;
+}
+
+.text-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background: rgba(255, 255, 255, .9); /* Adds a white background with some transparency to make the text readable */
+  position: relative;
+
+}
+
+
+.text-container-clear {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  position: relative;
+
+}
+
+.flex-container {
+  display: flex;
+}
+
+
+
+/* Header styling */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  padding: 1rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, .9); /* Adds a white background with some transparency to make the text readable */
+
+  position: relative;
+}
+
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header nav {
+  font-size: 1.25em;
+
+}
+
+
+/* Main content area */
+main {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+section p {
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #333; /* Color of the horizontal line */
+  margin: 2rem 1rem; /* Margin above and below the line */
+}
+
+
+
+
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
+.review {
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  outline: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-fit {
+  display: block; /* Ensures the element behaves like a block-level element */
+  max-width: 100%; /* Restrains the width to the container width */
+  max-height: 100vh; /* Restrains the height to the viewport height */
+  object-fit: contain; /* Ensures the image scales down to fit within the container without cropping */
+  padding: 2%;
+  
+}
+
+.photo-fit-centered {
+  display: block; /* Ensures the element behaves like a block-level element */
+  max-width: 100%; /* Restrains the width to the container width */
+  max-height: 100vh; /* Restrains the height to the viewport height */
+  object-fit: contain; /* Ensures the image scales down to fit within the container without cropping */
+  padding: 2%;
+  margin-right: auto;
+  margin-left: auto;
+
+  
+}
+
+.flex-column {
+
+flex: 50%;
+padding: 2.5%;
+
+}
+
+p {
+  text-indent: 1em;
+}
+
+.update {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid red;
+  outline: red;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+
+}
