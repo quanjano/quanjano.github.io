@@ -155,17 +155,7 @@ footer {
   
 }
 
-.photo-fit-centered {
-  display: block; /* Ensures the element behaves like a block-level element */
-  max-width: 100%; /* Restrains the width to the container width */
-  max-height: 100vh; /* Restrains the height to the viewport height */
-  object-fit: contain; /* Ensures the image scales down to fit within the container without cropping */
-  padding: 2%;
-  margin-right: auto;
-  margin-left: auto;
 
-  
-}
 
 .flex-column {
 
@@ -187,4 +177,15 @@ p {
   margin-right: auto;
   max-width: 400px;
 
+}
+
+.centered {
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.text-centered {
+  text-align: center;
 }
